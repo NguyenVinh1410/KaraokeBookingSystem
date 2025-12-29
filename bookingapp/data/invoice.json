@@ -1,0 +1,13 @@
+[
+  {
+    "invoice_id": "",
+    "payment_date": "",
+    "room_cost": "",
+    "service_cost": "",
+    "discount": "",
+    "sub_total": "",
+    "vat": "",
+    "total_amount": "",
+    "booking_id": ""
+  }
+]

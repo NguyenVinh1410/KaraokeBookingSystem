@@ -1,0 +1,29 @@
+{%extends 'layout/base.html'%}
+
+{%block title%}Dịch vụ{%endblock%}
+
+{%block content%}
+<h3 class="mt-3">Thêm dịch vụ cho booking #{{ booking.booking_id }} - Phòng {{ booking.room.room_name }}</h3>
+
+{% if msg %}
+<div class="alert alert-success mt-2">{{ msg }}</div>
+{% endif %}
+
+<form method="post" class="row g-3 mt-2">
+    <div class="col-md-6">
+        <label>Dịch vụ</label>
+        <select name="service_id" class="form-select">
+            {% for s in services %}
+            <option value="{{ s.service_id }}">{{ s.service_name }} - {{ s.price|int }} VND</option>
+            {% endfor %}
+        </select>
+    </div>
+    <div class="col-md-3">
+        <label>Số lượng</label>
+        <input type="number" name="quantity" value="1" min="1" class="form-control">
+    </div>
+    <div class="col-md-3 d-flex align-items-end">
+        <button class="btn btn-primary" type="submit">Thêm</button>
+    </div>
+</form>
+{%endblock%}

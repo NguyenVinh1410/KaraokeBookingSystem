@@ -1,0 +1,20 @@
+{%extends 'layout/base.html'%}
+
+{%block content%}
+<div class="row mt-3">
+    {%for p in rooms%}
+    <div class="col-md-3 col-12" style="padding: 0.7rem">
+        <div class="card">
+            <img class="card-img-top" style="height: 200px; object-fit: cover;" src="{{p.image}}"
+                 alt="{{p.room_name}}">
+            <div class="card-body">
+                <h4 class="card-title">{{p.room_name}}</h4>
+                <p>Loại: {{p.room_type.room_type_name}}</p>
+                <p>Sức chứa: {{p.room_type.capacity}} người</p>
+                <a href="/rooms/{{p.room_id}}" class="btn btn-primary">Chi tiết / Đặt phòng</a>
+            </div>
+        </div>
+    </div>
+    {%endfor%}
+</div>
+{%endblock%}

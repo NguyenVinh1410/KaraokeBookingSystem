@@ -1,0 +1,72 @@
+[
+  {
+    "room_id": 1,
+    "room_name": "Phòng đôi P101",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.tVB9zEye0MO6UmZ-6vT8pwHaFP?pid=Api&P=0&h=180",
+    "status": "Trống",
+    "room_type_id": 1
+  },
+  {
+    "room_id": 2,
+    "room_name": "Phòng đôi P102",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.YX6KcmVik0bzO7JbC-xbuAHaE7?pid=Api&P=0&h=180",
+    "status": "Trống",
+    "room_type_id": 1
+  },
+  {
+    "room_id": 3,
+    "room_name": "Phòng basic P201",
+    "image": "https://tse1.mm.bing.net/th/id/OIP.7bhFWM-sXrrel_H1X01sUgHaEP?pid=Api&P=0&h=180",
+    "status": "Trống",
+    "room_type_id": 2
+  },
+  {
+    "room_id": 4,
+    "room_name": "Phòng basic P202",
+    "image": "https://tse3.mm.bing.net/th/id/OIP.VJazG7GZ_C43sORdEdTiQgHaEW?pid=Api&P=0&h=180",
+    "status": "Trống",
+    "room_type_id": 2
+  },
+  {
+    "room_id": 5,
+    "room_name": "Phòng basic P203",
+    "image": "https://tse1.mm.bing.net/th/id/OIP.46Gr_KF88S5Vaa9humI89QHaFj?pid=Api&P=0&h=180",
+    "status": "Trống",
+    "room_type_id": 2
+  },
+  {
+    "room_id": 6,
+    "room_name": "Phòng vip P301",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.tMIzLq2-3llnADwf5m7G-AHaE8?pid=Api&P=0&h=180",
+    "status": "Trống",
+    "room_type_id": 3
+  },
+  {
+    "room_id": 7,
+    "room_name": "Phòng vip P302",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.mzVdJ-KL-OolzojDxbFo_wHaEi?pid=Api&P=0&h=180",
+    "status": "Trống",
+    "room_type_id": 3
+  },
+  {
+    "room_id": 8,
+    "room_name": "Phòng vip P303",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.8HFqw5n7d5m0Hj2kpSGmpAHaE8?pid=Api&P=0&h=180",
+    "status": "Trống",
+    "room_type_id": 3
+  },
+  {
+    "room_id": 9,
+    "room_name": "Phòng svip P401",
+    "image": "https://tse3.mm.bing.net/th/id/OIP.UyG1MDVj7OZGf8s4PZcJvAHaEK?pid=Api&P=0&h=180",
+    "status": "Trống",
+    "room_type_id": 4
+  },
+  {
+    "room_id": 10,
+    "room_name": "Phòng svip P402",
+    "image": "https://tse1.mm.bing.net/th/id/OIP.My7Wt0KoiXEdqrqr_mL13AHaEA?pid=Api&P=0&h=180",
+    "status": "Trống",
+    "room_type_id": 4
+  }
+]

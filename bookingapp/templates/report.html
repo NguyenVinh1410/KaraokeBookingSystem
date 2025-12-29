@@ -1,0 +1,40 @@
+{%extends 'layout/base.html'%}
+
+{%block title%}Báo cáo doanh thu{%endblock%}
+
+{%block content%}
+<h3 class="mt-3">Báo cáo doanh thu theo loại phòng</h3>
+
+<form method="get" class="row g-3 mt-2 mb-3">
+    <div class="col-md-4">
+        <label>Từ ngày</label>
+        <input type="date" name="start" class="form-control" value="{{ start_date }}">
+    </div>
+    <div class="col-md-4">
+        <label>Đến ngày</label>
+        <input type="date" name="end" class="form-control" value="{{ end_date }}">
+    </div>
+    <div class="col-md-4 d-flex align-items-end">
+        <button class="btn btn-primary" type="submit">Xem báo cáo</button>
+    </div>
+</form>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Loại phòng</th>
+            <th>Số lượt</th>
+            <th>Doanh thu (VND)</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in data %}
+        <tr>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[2] }}</td>
+            <td>{{ row[1]|int }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{%endblock%}

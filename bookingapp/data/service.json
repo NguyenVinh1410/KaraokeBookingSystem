@@ -1,0 +1,37 @@
+[
+  {
+    "service_id": 1,
+    "service_name": "Khô bò",
+    "price": 100000,
+    "category_id": 1
+  },
+  {
+    "service_id": 2,
+    "service_name": "Đậu phộng",
+    "price": 50000,
+    "category_id": 1
+  },
+  {
+    "service_id": 3,
+    "service_name": "Bim bim",
+    "price": 20000,
+    "category_id": 1
+  },{
+    "service_id": 4,
+    "service_name": "Tiger",
+    "price": 29000,
+    "category_id": 2
+  },
+  {
+    "service_id": 5,
+    "service_name": "Pepsi",
+    "price": 20000,
+    "category_id": 2
+  },
+  {
+    "service_id": 6,
+    "service_name": "Aqua",
+    "price": 15000,
+    "category_id": 2
+  }
+]

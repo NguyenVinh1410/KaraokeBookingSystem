@@ -1,0 +1,26 @@
+[
+  {
+    "room_type_id": 1,
+    "room_type_name": "Phòng couple",
+    "capacity": 2,
+    "price": 100000
+  },
+  {
+    "room_type_id": 2,
+    "room_type_name": "Phòng basic",
+    "capacity": 4,
+    "price": 200000
+  },
+  {
+    "room_type_id": 3,
+    "room_type_name": "Phòng vip",
+    "capacity": 8,
+    "price": 300000
+  },
+  {
+    "room_type_id": 4,
+    "room_type_name": "Phòng supper vip",
+    "capacity": 15,
+    "price": 500000
+  }
+]

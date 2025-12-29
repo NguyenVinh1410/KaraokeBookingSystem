@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">BOOKING WEBSITE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="/">Trang chủ</a>
+                </li>
+                {%for p in rs%}
+                <li class="nav-item">
+                    <a class="nav-link" href="/?room_id={{p.room_type_id}}">{{p.room_type_name}}</a>
+                </li>
+                {%endfor%}
+                {% if current_role == 'admin' %}
+                <li class="nav-item">
+                    <a class="nav-link" href="/report">Báo cáo doanh thu</a>
+                </li>
+                {% endif %}
+            </ul>
+            <div class="d-flex">
+                {% if current_user %}
+                    <span class="navbar-text text-white me-3">
+                        Xin chào, {{ current_user }}
+                    </span>
+                    <a class="btn btn-outline-light" href="/logout">Đăng xuất</a>
+                {% else %}
+                    <a class="btn btn-primary" href="/login">&#128274; Đăng nhập</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</nav>
